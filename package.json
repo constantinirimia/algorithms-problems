@@ -1,6 +1,6 @@
 {
   "name": "web",
-  "homepage": "https://constantinirimia.github.io/algorithm-problems",
+  "homepage": "https://constantinirimia.github.io/algorithms-problems/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
