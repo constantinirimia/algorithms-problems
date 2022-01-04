@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/algorithm-problems/static/css/main.137cf0f8.chunk.css",
-    "main.js": "/algorithm-problems/static/js/main.a5f6be05.chunk.js",
-    "main.js.map": "/algorithm-problems/static/js/main.a5f6be05.chunk.js.map",
-    "runtime-main.js": "/algorithm-problems/static/js/runtime-main.1a7e8ae9.js",
-    "runtime-main.js.map": "/algorithm-problems/static/js/runtime-main.1a7e8ae9.js.map",
-    "static/css/2.f9c4fca4.chunk.css": "/algorithm-problems/static/css/2.f9c4fca4.chunk.css",
-    "static/js/2.4a18a787.chunk.js": "/algorithm-problems/static/js/2.4a18a787.chunk.js",
-    "static/js/2.4a18a787.chunk.js.map": "/algorithm-problems/static/js/2.4a18a787.chunk.js.map",
-    "index.html": "/algorithm-problems/index.html",
-    "static/css/2.f9c4fca4.chunk.css.map": "/algorithm-problems/static/css/2.f9c4fca4.chunk.css.map",
-    "static/css/main.137cf0f8.chunk.css.map": "/algorithm-problems/static/css/main.137cf0f8.chunk.css.map",
-    "static/js/2.4a18a787.chunk.js.LICENSE.txt": "/algorithm-problems/static/js/2.4a18a787.chunk.js.LICENSE.txt"
+    "main.css": "/algorithms-problems/static/css/main.137cf0f8.chunk.css",
+    "main.js": "/algorithms-problems/static/js/main.c1777b6a.chunk.js",
+    "main.js.map": "/algorithms-problems/static/js/main.c1777b6a.chunk.js.map",
+    "runtime-main.js": "/algorithms-problems/static/js/runtime-main.18a09244.js",
+    "runtime-main.js.map": "/algorithms-problems/static/js/runtime-main.18a09244.js.map",
+    "static/css/2.f9c4fca4.chunk.css": "/algorithms-problems/static/css/2.f9c4fca4.chunk.css",
+    "static/js/2.4a18a787.chunk.js": "/algorithms-problems/static/js/2.4a18a787.chunk.js",
+    "static/js/2.4a18a787.chunk.js.map": "/algorithms-problems/static/js/2.4a18a787.chunk.js.map",
+    "index.html": "/algorithms-problems/index.html",
+    "static/css/2.f9c4fca4.chunk.css.map": "/algorithms-problems/static/css/2.f9c4fca4.chunk.css.map",
+    "static/css/main.137cf0f8.chunk.css.map": "/algorithms-problems/static/css/main.137cf0f8.chunk.css.map",
+    "static/js/2.4a18a787.chunk.js.LICENSE.txt": "/algorithms-problems/static/js/2.4a18a787.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1a7e8ae9.js",
+    "static/js/runtime-main.18a09244.js",
     "static/css/2.f9c4fca4.chunk.css",
     "static/js/2.4a18a787.chunk.js",
     "static/css/main.137cf0f8.chunk.css",
-    "static/js/main.a5f6be05.chunk.js"
+    "static/js/main.c1777b6a.chunk.js"
   ]
 }
