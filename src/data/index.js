@@ -1,12 +1,12 @@
 const questions = [
   {
     id: 0,
-    name: "Contains DuplicatTest1",
+    name: "Contains Duplicates",
     url: "https://leetcode.com/problems/contains-duplicate/",
     pattern: ["Strings"],
     difficulty: "Easy",
     premium: false,
-    companies: []
+    companies: ["CrackingTheCodeInterview"],
   },
   {
     id: 1,
@@ -15,7 +15,7 @@ const questions = [
     pattern: ["Strings"],
     difficulty: "Easy",
     premium: false,
-    companies: []
+    companies: ["CrackingTheCodeInterview"],
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const questions = [
     pattern: ["Arrays"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Facebook", "Amazon"]
+    companies: ["Facebook", "Amazon"],
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const questions = [
     pattern: ["Arrays", "Bit Manipulation"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Amazon", "Microsoft", "Adobe"]
+    companies: ["Amazon", "Microsoft", "Adobe"],
   },
   {
     id: 4,
@@ -54,8 +54,8 @@ const questions = [
       "Google",
       "Uber",
       "Goldman Sachs",
-      "Oracle"
-    ]
+      "Oracle",
+    ],
   },
   {
     id: 5,
@@ -71,8 +71,9 @@ const questions = [
       "Adobe",
       "Bloomberg",
       "Facebook",
-      "Apple"
-    ]
+      "Apple",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 6,
@@ -81,7 +82,7 @@ const questions = [
     pattern: ["Arrays"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon", "Google"]
+    companies: ["Amazon", "Google"],
   },
   {
     id: 7,
@@ -97,8 +98,9 @@ const questions = [
       "Apple",
       "Adobe",
       "Bloomberg",
-      "Oracle"
-    ]
+      "Oracle",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 8,
@@ -116,8 +118,8 @@ const questions = [
       "Oracle",
       "Bloomberg",
       "Intuit",
-      "Adobe"
-    ]
+      "Adobe",
+    ],
   },
   {
     id: 9,
@@ -133,8 +135,9 @@ const questions = [
       "Apple",
       "Bloomberg",
       "Uber",
-      "Google"
-    ]
+      "Google",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 10,
@@ -155,8 +158,8 @@ const questions = [
       "Apple",
       "Adobe",
       "Oracle",
-      "Qualtrics"
-    ]
+      "Qualtrics",
+    ],
   },
 
   {
@@ -166,7 +169,7 @@ const questions = [
     pattern: ["Arrays"],
     difficulty: "Hard",
     premium: false,
-    companies: ["Amazon", "Microsoft", "Facebook", "Google", "Adobe", "Apple"]
+    companies: ["Amazon", "Microsoft", "Facebook", "Google", "Adobe", "Apple"],
   },
   {
     id: 12,
@@ -184,8 +187,8 @@ const questions = [
       "Apple",
       "Qualtrics",
       "Goldman Sachs",
-      "Salesforce"
-    ]
+      "Salesforce",
+    ],
   },
 
   {
@@ -195,7 +198,7 @@ const questions = [
     pattern: ["Backtracking"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Microsoft"]
+    companies: ["Microsoft"],
   },
   {
     id: 14,
@@ -211,8 +214,8 @@ const questions = [
       "Bloomberg",
       "Goldman Sachs",
       "Adobe",
-      "Twitter"
-    ]
+      "Twitter",
+    ],
   },
   {
     id: 15,
@@ -221,7 +224,7 @@ const questions = [
     pattern: ["Backtracking"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Facebook", "Amazon", "Bloomberg"]
+    companies: ["Facebook", "Amazon", "Bloomberg"],
   },
   {
     id: 16,
@@ -239,8 +242,9 @@ const questions = [
       "Microsoft",
       "Adobe",
       "Apple",
-      "Oracle"
-    ]
+      "Oracle",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 17,
@@ -249,7 +253,14 @@ const questions = [
     pattern: ["Backtracking"],
     difficulty: "Medium",
     premium: false,
-    companies: ["LinkedIn", "Facebook", "Amazon", "Adobe", "Apple"]
+    companies: [
+      "LinkedIn",
+      "Facebook",
+      "Amazon",
+      "Adobe",
+      "Apple",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 18,
@@ -258,7 +269,7 @@ const questions = [
     pattern: ["Backtracking"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Google", "Facebook", "Amazon"]
+    companies: ["Google", "Facebook", "Amazon"],
   },
   {
     id: 19,
@@ -277,8 +288,8 @@ const questions = [
       "LinkedIn",
       "Goldman Sachs",
       "Snapchat",
-      "Salesforce"
-    ]
+      "Salesforce",
+    ],
   },
   {
     id: 20,
@@ -287,7 +298,7 @@ const questions = [
     pattern: ["Backtracking"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Facebook", "Amazon"]
+    companies: ["Facebook", "Amazon"],
   },
   {
     id: 21,
@@ -296,7 +307,7 @@ const questions = [
     pattern: ["Backtracking"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Google"]
+    companies: ["Google"],
   },
   {
     id: 22,
@@ -314,8 +325,9 @@ const questions = [
       "Adobe",
       "Uber",
       "Google",
-      "Goldman Sachs"
-    ]
+      "Goldman Sachs",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 23,
@@ -324,7 +336,7 @@ const questions = [
     pattern: ["DFS", "Dynamic Programming"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Facebook", "Amazon", "Microsoft", "Adobe"]
+    companies: ["Facebook", "Amazon", "Microsoft", "Adobe"],
   },
   {
     id: 24,
@@ -333,7 +345,7 @@ const questions = [
     pattern: ["Backtracking"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Apple"]
+    companies: ["Apple"],
   },
   {
     id: 25,
@@ -355,8 +367,9 @@ const questions = [
       "Oracle",
       "Goldman Sachs",
       "Snapchat",
-      "Intuit"
-    ]
+      "Intuit",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 26,
@@ -365,7 +378,7 @@ const questions = [
     pattern: ["Backtracking"],
     difficulty: "Medium",
     premium: true,
-    companies: ["", "Google"]
+    companies: ["", "Google"],
   },
   {
     id: 27,
@@ -374,7 +387,7 @@ const questions = [
     pattern: ["Backtracking"],
     difficulty: "Hard",
     premium: false,
-    companies: ["", "Google", "Intuit", "Amazon", "Apple", "Uber", "Bloomberg"]
+    companies: ["", "Google", "Intuit", "Amazon", "Apple", "Uber", "Bloomberg"],
   },
   {
     id: 28,
@@ -390,8 +403,9 @@ const questions = [
       "Facebook",
       "Uber",
       "Goldman Sachs",
-      "Adobe"
-    ]
+      "Adobe",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 29,
@@ -400,7 +414,7 @@ const questions = [
     pattern: ["Dynamic Programming"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Amazon", "Microsoft", "Google", "Bloomberg", "Apple", "Adobe"]
+    companies: ["Amazon", "Microsoft", "Google", "Bloomberg", "Apple", "Adobe"],
   },
   {
     id: 30,
@@ -418,8 +432,9 @@ const questions = [
       "Qualtrics",
       "Bloomberg",
       "Facebook",
-      "Goldman Sachs"
-    ]
+      "Goldman Sachs",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 31,
@@ -443,8 +458,8 @@ const questions = [
       "BlackRock",
       "Citadel",
       "JPMorgan",
-      "Salesforce"
-    ]
+      "Salesforce",
+    ],
   },
   {
     id: 32,
@@ -465,8 +480,8 @@ const questions = [
       "Uber",
       "Oracle",
       "Goldman Sachs",
-      "JPMorgan"
-    ]
+      "JPMorgan",
+    ],
   },
   {
     id: 33,
@@ -475,7 +490,7 @@ const questions = [
     pattern: ["Dynamic Programming"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Facebook", "Adobe"]
+    companies: ["Facebook", "Adobe"],
   },
   {
     id: 34,
@@ -484,7 +499,7 @@ const questions = [
     pattern: ["Dynamic Programming"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon", "Google"]
+    companies: ["Amazon", "Google"],
   },
   {
     id: 35,
@@ -493,7 +508,7 @@ const questions = [
     pattern: ["Dynamic Programming"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon", "Microsoft", "Google", "Apple"]
+    companies: ["Amazon", "Microsoft", "Google", "Apple"],
   },
   {
     id: 36,
@@ -509,8 +524,8 @@ const questions = [
       "Google",
       "Apple",
       "Facebook",
-      "Bloomberg"
-    ]
+      "Bloomberg",
+    ],
   },
   {
     id: 37,
@@ -525,8 +540,8 @@ const questions = [
       "Facebook",
       "Microsoft",
       "Apple",
-      "Bloomberg"
-    ]
+      "Bloomberg",
+    ],
   },
   {
     id: 38,
@@ -546,8 +561,8 @@ const questions = [
       "Salesforce",
       "Bloomberg",
       "LinkedIn",
-      "Tesla"
-    ]
+      "Tesla",
+    ],
   },
   {
     id: 39,
@@ -567,8 +582,8 @@ const questions = [
       "Adobe",
       "Google",
       "Snapchat",
-      "Salesforce"
-    ]
+      "Salesforce",
+    ],
   },
   {
     id: 40,
@@ -577,7 +592,7 @@ const questions = [
     pattern: ["Dynamic Programming"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Google", "Amazon", "Facebook"]
+    companies: ["Google", "Amazon", "Facebook"],
   },
   {
     id: 41,
@@ -594,8 +609,8 @@ const questions = [
       "Goldman Sachs",
       "Microsoft",
       "Bloomberg",
-      "JPMorgan"
-    ]
+      "JPMorgan",
+    ],
   },
   {
     id: 42,
@@ -610,8 +625,9 @@ const questions = [
       "Amazon",
       "Apple",
       "Microsoft",
-      "Bloomberg"
-    ]
+      "Bloomberg",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 43,
@@ -627,8 +643,8 @@ const questions = [
       "Oracle",
       "Adobe",
       "Microsoft",
-      "Bloomberg"
-    ]
+      "Bloomberg",
+    ],
   },
   {
     id: 44,
@@ -637,7 +653,7 @@ const questions = [
     pattern: ["Dynamic Programming"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Facebook", "Microsoft", "Google", "Goldman Sachs"]
+    companies: ["Facebook", "Microsoft", "Google", "Goldman Sachs"],
   },
   {
     id: 45,
@@ -647,7 +663,7 @@ const questions = [
     pattern: ["Dynamic Programming"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon", "Google"]
+    companies: ["Amazon", "Google"],
   },
   {
     id: 46,
@@ -663,8 +679,8 @@ const questions = [
       "Microsoft",
       "Uber",
       "Apple",
-      "Bloomberg"
-    ]
+      "Bloomberg",
+    ],
   },
   {
     id: 47,
@@ -673,7 +689,7 @@ const questions = [
     pattern: ["Dynamic Programming"],
     difficulty: "Medium",
     premium: false,
-    companies: ["LinkedIn", "Facebook"]
+    companies: ["LinkedIn", "Facebook"],
   },
   {
     id: 48,
@@ -683,7 +699,7 @@ const questions = [
     pattern: ["Dynamic Programming"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Adobe", "Bloomberg"]
+    companies: ["Adobe", "Bloomberg"],
   },
   {
     id: 49,
@@ -692,7 +708,7 @@ const questions = [
     pattern: ["Dynamic Programming", "Bit Manipulation"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Google"]
+    companies: ["Google"],
   },
   {
     id: 50,
@@ -707,8 +723,9 @@ const questions = [
       "Bloomberg",
       "Oracle",
       "Facebook",
-      "Google"
-    ]
+      "Google",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 51,
@@ -717,7 +734,7 @@ const questions = [
     pattern: ["Fast & Slow Pointers"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Amazon", "Apple", "Microsoft", "Adobe", "Goldman Sachs"]
+    companies: ["Amazon", "Apple", "Microsoft", "Adobe", "Goldman Sachs"],
   },
   {
     id: 52,
@@ -726,7 +743,14 @@ const questions = [
     pattern: ["Fast & Slow Pointers"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Facebook", "Amazon", "Microsoft", "Intuit", "Bloomberg"]
+    companies: [
+      "Facebook",
+      "Amazon",
+      "Microsoft",
+      "Intuit",
+      "Bloomberg",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 53,
@@ -735,7 +759,7 @@ const questions = [
     pattern: ["Fast & Slow Pointers"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Facebook", "Microsoft"]
+    companies: ["Facebook", "Microsoft"],
   },
   {
     id: 54,
@@ -744,7 +768,13 @@ const questions = [
     pattern: ["Fast & Slow Pointers"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Amazon", "Adobe", "Facebook", "Microsoft"]
+    companies: [
+      "Amazon",
+      "Adobe",
+      "Facebook",
+      "Microsoft",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 55,
@@ -753,7 +783,13 @@ const questions = [
     pattern: ["Fast & Slow Pointers"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Microsoft", "Amazon", "Goldman Sachs", "Oracle"]
+    companies: [
+      "Microsoft",
+      "Amazon",
+      "Goldman Sachs",
+      "Oracle",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 56,
@@ -772,8 +808,9 @@ const questions = [
       "Apple",
       "Uber",
       "Capital One",
-      "Oracle"
-    ]
+      "Oracle",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 57,
@@ -782,7 +819,14 @@ const questions = [
     pattern: ["Fast & Slow Pointers"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Facebook", "Microsoft", "Amazon", "Google", "Apple"]
+    companies: [
+      "Facebook",
+      "Microsoft",
+      "Amazon",
+      "Google",
+      "Apple",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 58,
@@ -791,7 +835,7 @@ const questions = [
     pattern: ["Fast & Slow Pointers"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Facebook", "Amazon", "Apple", "Uber"]
+    companies: ["Facebook", "Amazon", "Apple", "Uber"],
   },
   {
     id: 59,
@@ -800,7 +844,7 @@ const questions = [
     pattern: ["Fast & Slow Pointers"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon", "Adobe", "Facebook", "Google", "Snapchat", "Uber"]
+    companies: ["Amazon", "Adobe", "Facebook", "Google", "Snapchat", "Uber"],
   },
   {
     id: 60,
@@ -818,8 +862,8 @@ const questions = [
       "Twitter",
       "Bloomberg",
       "Oracle",
-      "Apple"
-    ]
+      "Apple",
+    ],
   },
   {
     id: 61,
@@ -828,7 +872,7 @@ const questions = [
     pattern: ["BFS", "DFS"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Google", "Amazon", "Microsoft", "Facebook", "Apple"]
+    companies: ["Google", "Amazon", "Microsoft", "Facebook", "Apple"],
   },
   {
     id: 62,
@@ -851,8 +895,9 @@ const questions = [
       "Lyft",
       "Uber",
       "Adobe",
-      "Qualtrics"
-    ]
+      "Qualtrics",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 63,
@@ -861,7 +906,7 @@ const questions = [
     pattern: ["BFS", "DFS", "Graph", "Union Find"],
     difficulty: "Medium",
     premium: true,
-    companies: ["LinkedIn", "Google", "Bloomberg"]
+    companies: ["LinkedIn", "Google", "Bloomberg"],
   },
   {
     id: 64,
@@ -871,7 +916,7 @@ const questions = [
     pattern: ["BFS", "DFS", "Graph", "Union Find"],
     difficulty: "Medium",
     premium: true,
-    companies: ["Amazon", "LinkedIn", "Facebook", "Pinterest"]
+    companies: ["Amazon", "LinkedIn", "Facebook", "Pinterest"],
   },
   {
     id: 65,
@@ -880,7 +925,7 @@ const questions = [
     pattern: ["In-place reversal of a linked list", "LInkedList"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Microsoft", "Bloomberg", "Amazon", "Facebook", "Apple"]
+    companies: ["Microsoft", "Bloomberg", "Amazon", "Facebook", "Apple"],
   },
   {
     id: 66,
@@ -889,7 +934,7 @@ const questions = [
     pattern: ["In-place reversal of a linked list", "LInkedList"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Apple", "Facebook", "Amazon", "Google", "Adobe"]
+    companies: ["Apple", "Facebook", "Amazon", "Google", "Adobe"],
   },
   {
     id: 67,
@@ -898,7 +943,7 @@ const questions = [
     pattern: ["In-place reversal of a linked list", "LInkedList"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon", "LinkedIn", "Microsoft", "Adobe", "Apple", "Oracle"]
+    companies: ["Amazon", "LinkedIn", "Microsoft", "Adobe", "Apple", "Oracle"],
   },
   {
     id: 68,
@@ -907,7 +952,7 @@ const questions = [
     pattern: ["In-place reversal of a linked list", "LInkedList"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Facebook", "Amazon", "Microsoft"]
+    companies: ["Facebook", "Amazon", "Microsoft"],
   },
   {
     id: 69,
@@ -922,8 +967,8 @@ const questions = [
       "Bloomberg",
       "Amazon",
       "Adobe",
-      "Apple"
-    ]
+      "Apple",
+    ],
   },
   {
     id: 70,
@@ -939,8 +984,8 @@ const questions = [
       "Google",
       "Facebook",
       "Snapchat",
-      "Oracle"
-    ]
+      "Oracle",
+    ],
   },
   {
     id: 71,
@@ -957,8 +1002,8 @@ const questions = [
       "Google",
       "Bloomberg",
       "Apple",
-      "Uber"
-    ]
+      "Uber",
+    ],
   },
   {
     id: 72,
@@ -968,7 +1013,7 @@ const questions = [
     pattern: ["Binary Search", "Heap"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Facebook", "Amazon", "Microsoft", "Bloomberg"]
+    companies: ["Facebook", "Amazon", "Microsoft", "Bloomberg"],
   },
   {
     id: 73,
@@ -977,7 +1022,7 @@ const questions = [
     pattern: ["Heap"],
     difficulty: "Medium",
     premium: false,
-    companies: ["LinkedIn", "Microsoft", "Apple"]
+    companies: ["LinkedIn", "Microsoft", "Apple"],
   },
   {
     id: 74,
@@ -996,8 +1041,8 @@ const questions = [
       "Adobe",
       "Uber",
       "Qualtrics",
-      "Oracle"
-    ]
+      "Oracle",
+    ],
   },
   {
     id: 75,
@@ -1007,7 +1052,7 @@ const questions = [
     pattern: ["Heap"],
     difficulty: "Hard",
     premium: false,
-    companies: ["Google", "Amazon", "Microsoft", "Pinterest"]
+    companies: ["Google", "Amazon", "Microsoft", "Pinterest"],
   },
   {
     id: 76,
@@ -1016,7 +1061,7 @@ const questions = [
     pattern: ["Intervals"],
     difficulty: "Easy",
     premium: true,
-    companies: ["Amazon", "Microsoft", "Facebook"]
+    companies: ["Amazon", "Microsoft", "Facebook"],
   },
   {
     id: 77,
@@ -1039,8 +1084,8 @@ const questions = [
       "Twitter",
       "Oracle",
       "JPMorgan",
-      "Snapchat"
-    ]
+      "Snapchat",
+    ],
   },
   {
     id: 78,
@@ -1049,7 +1094,7 @@ const questions = [
     pattern: ["Intervals"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Facebook", "Uber", "Google"]
+    companies: ["Facebook", "Uber", "Google"],
   },
   {
     id: 79,
@@ -1058,7 +1103,7 @@ const questions = [
     pattern: ["Intervals"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon", "Facebook", "Oracle"]
+    companies: ["Amazon", "Facebook", "Oracle"],
   },
   {
     id: 80,
@@ -1080,8 +1125,8 @@ const questions = [
       "Qualtrics",
       "Adobe",
       "Quora",
-      "Goldman Sachs"
-    ]
+      "Goldman Sachs",
+    ],
   },
   {
     id: 81,
@@ -1096,8 +1141,8 @@ const questions = [
       "Uber",
       "Amazon",
       "Microsoft",
-      "Salesforce"
-    ]
+      "Salesforce",
+    ],
   },
   {
     id: 82,
@@ -1107,7 +1152,7 @@ const questions = [
     pattern: ["Greedy"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Apple"]
+    companies: ["Apple"],
   },
   {
     id: 83,
@@ -1123,8 +1168,8 @@ const questions = [
       "LinkedIn",
       "Microsoft",
       "Twitter",
-      "Citadel"
-    ]
+      "Citadel",
+    ],
   },
   {
     id: 84,
@@ -1142,8 +1187,8 @@ const questions = [
       "Facebook",
       "Apple",
       "Oracle",
-      "Uber"
-    ]
+      "Uber",
+    ],
   },
   {
     id: 85,
@@ -1152,7 +1197,7 @@ const questions = [
     pattern: ["Binary Search"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Adobe", "Apple", "Uber", "Goldman Sachs"]
+    companies: ["Adobe", "Apple", "Uber", "Goldman Sachs"],
   },
   {
     id: 86,
@@ -1162,7 +1207,7 @@ const questions = [
     pattern: ["Binary Search"],
     difficulty: "Easy",
     premium: false,
-    companies: ["LinkedIn"]
+    companies: ["LinkedIn"],
   },
   {
     id: 87,
@@ -1171,7 +1216,7 @@ const questions = [
     pattern: ["Binary Search"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Google", "Amazon", "Bloomberg", "Facebook"]
+    companies: ["Google", "Amazon", "Bloomberg", "Facebook"],
   },
   {
     id: 88,
@@ -1187,8 +1232,8 @@ const questions = [
       "Bloomberg",
       "Uber",
       "Adobe",
-      "Apple"
-    ]
+      "Apple",
+    ],
   },
   {
     id: 89,
@@ -1197,7 +1242,7 @@ const questions = [
     pattern: ["Binary Search"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Facebook", "Amazon", "Uber", "Google", "Microsoft"]
+    companies: ["Facebook", "Amazon", "Uber", "Google", "Microsoft"],
   },
   {
     id: 90,
@@ -1217,8 +1262,9 @@ const questions = [
       "Goldman Sachs",
       "Oracle",
       "Uber",
-      "Morgan Stanley"
-    ]
+      "Morgan Stanley",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 91,
@@ -1227,7 +1273,13 @@ const questions = [
     pattern: ["Binary Search"],
     difficulty: "Medium",
     premium: false,
-    companies: ["LinkedIn", "Amazon", "Facebook", "Microsoft"]
+    companies: [
+      "LinkedIn",
+      "Amazon",
+      "Facebook",
+      "Microsoft",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 92,
@@ -1243,8 +1295,8 @@ const questions = [
       "Microsoft",
       "Uber",
       "Google",
-      "Apple"
-    ]
+      "Apple",
+    ],
   },
   {
     id: 93,
@@ -1253,7 +1305,14 @@ const questions = [
     pattern: ["Binary Search"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Microsoft", "Amazon", "Facebook", "Apple", "Uber"]
+    companies: [
+      "Microsoft",
+      "Amazon",
+      "Facebook",
+      "Apple",
+      "Uber",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 94,
@@ -1268,8 +1327,8 @@ const questions = [
       "Google",
       "Uber",
       "Microsoft",
-      "Bloomberg"
-    ]
+      "Bloomberg",
+    ],
   },
   {
     id: 95,
@@ -1278,7 +1337,7 @@ const questions = [
     pattern: ["Binary Search"],
     difficulty: "Hard",
     premium: false,
-    companies: ["Google"]
+    companies: ["Google"],
   },
   {
     id: 96,
@@ -1287,7 +1346,7 @@ const questions = [
     pattern: ["Sliding Window"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Goldman Sachs", "Facebook", "Amazon", "Google"]
+    companies: ["Goldman Sachs", "Facebook", "Amazon", "Google"],
   },
   {
     id: 97,
@@ -1296,7 +1355,7 @@ const questions = [
     pattern: ["Sliding Window"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon"]
+    companies: ["Amazon"],
   },
   {
     id: 98,
@@ -1305,7 +1364,7 @@ const questions = [
     pattern: ["Sliding Window"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Oracle", "Facebook"]
+    companies: ["Oracle", "Facebook", "CrackingTheCodeInterview"],
   },
   {
     id: 99,
@@ -1315,7 +1374,7 @@ const questions = [
     pattern: ["Sliding Window"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Facebook", "Uber", "Amazon", "Adobe"]
+    companies: ["Facebook", "Uber", "Amazon", "Adobe"],
   },
   {
     id: 100,
@@ -1335,8 +1394,8 @@ const questions = [
       "Salesforce",
       "Apple",
       "Twitter",
-      "Atlassian"
-    ]
+      "Atlassian",
+    ],
   },
   {
     id: 101,
@@ -1355,8 +1414,8 @@ const questions = [
       "Google",
       "Apple",
       "Uber",
-      "Goldman Sachs"
-    ]
+      "Goldman Sachs",
+    ],
   },
   {
     id: 102,
@@ -1366,7 +1425,7 @@ const questions = [
     pattern: ["Sliding Window"],
     difficulty: "Hard",
     premium: false,
-    companies: ["Adobe"]
+    companies: ["Adobe"],
   },
   {
     id: 103,
@@ -1376,7 +1435,7 @@ const questions = [
     pattern: ["Sliding Window"],
     difficulty: "Hard",
     premium: false,
-    companies: ["Amazon"]
+    companies: ["Amazon"],
   },
   {
     id: 104,
@@ -1392,8 +1451,9 @@ const questions = [
       "Snapchat",
       "Google",
       "Lyft",
-      "Adobe"
-    ]
+      "Adobe",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 105,
@@ -1403,7 +1463,7 @@ const questions = [
     pattern: ["Sliding Window"],
     difficulty: "Hard",
     premium: false,
-    companies: ["Apple"]
+    companies: ["Apple"],
   },
   {
     id: 106,
@@ -1412,7 +1472,7 @@ const questions = [
     pattern: ["DFS"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon", "Facebook"]
+    companies: ["Amazon", "Facebook"],
   },
   {
     id: 107,
@@ -1421,7 +1481,7 @@ const questions = [
     pattern: ["Heap"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Facebook", "Amazon", "LinkedIn", "Google", "Asana"]
+    companies: ["Facebook", "Amazon", "LinkedIn", "Google", "Asana"],
   },
   {
     id: 108,
@@ -1441,8 +1501,8 @@ const questions = [
       "Adobe",
       "Snapchat",
       "Oracle",
-      "LinkedIn"
-    ]
+      "LinkedIn",
+    ],
   },
   {
     id: 109,
@@ -1451,7 +1511,7 @@ const questions = [
     pattern: ["Heap"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon", "Bloomberg", "Facebook"]
+    companies: ["Amazon", "Bloomberg", "Facebook"],
   },
   {
     id: 110,
@@ -1468,8 +1528,8 @@ const questions = [
       "Google",
       "Goldman Sachs",
       "Uber",
-      "Oracle"
-    ]
+      "Oracle",
+    ],
   },
   {
     id: 111,
@@ -1478,7 +1538,7 @@ const questions = [
     pattern: ["Greedy", "Heap"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon", "Facebook", "Google", "Apple", "Uber", "Microsoft"]
+    companies: ["Amazon", "Facebook", "Google", "Apple", "Uber", "Microsoft"],
   },
   {
     id: 112,
@@ -1487,7 +1547,7 @@ const questions = [
     pattern: ["Greedy", "Heap"],
     difficulty: "Hard",
     premium: true,
-    companies: ["Twitter"]
+    companies: ["Twitter"],
   },
   {
     id: 113,
@@ -1496,7 +1556,7 @@ const questions = [
     pattern: ["Greedy", "Heap"],
     difficulty: "Hard",
     premium: false,
-    companies: ["Amazon"]
+    companies: ["Amazon"],
   },
   {
     id: 114,
@@ -1505,7 +1565,7 @@ const questions = [
     pattern: ["Bucket Sort", "Heap"],
     difficulty: "Hard",
     premium: false,
-    companies: ["Microsoft", "Amazon", "Apple", "Facebook"]
+    companies: ["Microsoft", "Amazon", "Apple", "Facebook"],
   },
   {
     id: 115,
@@ -1521,8 +1581,8 @@ const questions = [
       "Google",
       "Oracle",
       "Apple",
-      "Snapchat"
-    ]
+      "Snapchat",
+    ],
   },
   {
     id: 116,
@@ -1540,8 +1600,8 @@ const questions = [
       "Uber",
       "Apple",
       "Lyft",
-      "Bloomberg"
-    ]
+      "Bloomberg",
+    ],
   },
   {
     id: 117,
@@ -1550,7 +1610,7 @@ const questions = [
     pattern: ["BFS", "Graph", "Topological Sort"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon", "Facebook", "Google", "Microsoft"]
+    companies: ["Amazon", "Facebook", "Google", "Microsoft"],
   },
   {
     id: 118,
@@ -1566,8 +1626,8 @@ const questions = [
       "Airbnb",
       "Pinterest",
       "Uber",
-      "Microsoft"
-    ]
+      "Microsoft",
+    ],
   },
   {
     id: 119,
@@ -1576,7 +1636,7 @@ const questions = [
     pattern: ["Graph", "Topological Sort"],
     difficulty: "Medium",
     premium: true,
-    companies: ["Google"]
+    companies: ["Google"],
   },
   {
     id: 120,
@@ -1585,7 +1645,7 @@ const questions = [
     pattern: ["BFS"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon"]
+    companies: ["Amazon"],
   },
 
   {
@@ -1595,7 +1655,7 @@ const questions = [
     pattern: ["BFS"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Facebook", "Amazon"]
+    companies: ["Facebook", "Amazon"],
   },
   {
     id: 122,
@@ -1604,7 +1664,7 @@ const questions = [
     pattern: ["BFS", "DFS"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Facebook", "Goldman Sachs"]
+    companies: ["Facebook", "Goldman Sachs"],
   },
   {
     id: 123,
@@ -1621,8 +1681,8 @@ const questions = [
       "Microsoft",
       "Apple",
       "Oracle",
-      "Google"
-    ]
+      "Google",
+    ],
   },
   {
     id: 124,
@@ -1641,8 +1701,8 @@ const questions = [
       "Adobe",
       "LinkedIn",
       "Qualtrics",
-      "Salesforce"
-    ]
+      "Salesforce",
+    ],
   },
   {
     id: 125,
@@ -1652,7 +1712,7 @@ const questions = [
     pattern: ["BFS"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Facebook", "Microsoft", "Amazon", "Bloomberg"]
+    companies: ["Facebook", "Microsoft", "Amazon", "Bloomberg"],
   },
   {
     id: 126,
@@ -1662,7 +1722,7 @@ const questions = [
     pattern: ["BFS"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon", "Bloomberg", "Microsoft", "Facebook"]
+    companies: ["Amazon", "Bloomberg", "Microsoft", "Facebook"],
   },
   {
     id: 127,
@@ -1678,8 +1738,8 @@ const questions = [
       "Oracle",
       "Qualtrics",
       "Adobe",
-      "Goldman Sachs"
-    ]
+      "Goldman Sachs",
+    ],
   },
   {
     id: 128,
@@ -1688,7 +1748,7 @@ const questions = [
     pattern: ["BFS", "DFS"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Facebook", "Amazon", "Apple", "Oracle"]
+    companies: ["Facebook", "Amazon", "Apple", "Oracle"],
   },
   {
     id: 129,
@@ -1705,8 +1765,8 @@ const questions = [
       "Facebook",
       "Apple",
       "Adobe",
-      "Oracle"
-    ]
+      "Oracle",
+    ],
   },
   {
     id: 130,
@@ -1715,7 +1775,7 @@ const questions = [
     pattern: ["DFS"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Amazon", "Facebook", "Oracle"]
+    companies: ["Amazon", "Facebook", "Oracle"],
   },
   {
     id: 131,
@@ -1731,8 +1791,8 @@ const questions = [
       "Bloomberg",
       "Apple",
       "Microsoft",
-      "Adobe"
-    ]
+      "Adobe",
+    ],
   },
   {
     id: 132,
@@ -1741,7 +1801,7 @@ const questions = [
     pattern: ["DFS"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Amazon", "Adobe"]
+    companies: ["Amazon", "Adobe"],
   },
   {
     id: 133,
@@ -1750,7 +1810,7 @@ const questions = [
     pattern: ["DFS"],
     difficulty: "Easy",
     premium: false,
-    companies: ["LinkedIn", "Google", "Apple", "Amazon"]
+    companies: ["LinkedIn", "Google", "Apple", "Amazon"],
   },
   {
     id: 134,
@@ -1760,7 +1820,7 @@ const questions = [
     pattern: ["DFS"],
     difficulty: "Easy",
     premium: false,
-    companies: ["LinkedIn", "Facebook", "Microsoft", "Google", "Uber"]
+    companies: ["LinkedIn", "Facebook", "Microsoft", "Google", "Uber"],
   },
   {
     id: 135,
@@ -1769,7 +1829,7 @@ const questions = [
     pattern: ["DFS"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Facebook", "Amazon", "Microsoft"]
+    companies: ["Facebook", "Amazon", "Microsoft"],
   },
   {
     id: 136,
@@ -1778,7 +1838,7 @@ const questions = [
     pattern: ["DFS"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Amazon", "Google", "Facebook", "Adobe", "Apple"]
+    companies: ["Amazon", "Google", "Facebook", "Adobe", "Apple"],
   },
   {
     id: 137,
@@ -1787,7 +1847,7 @@ const questions = [
     pattern: ["DFS"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon", "Google", "Facebook", "Adobe", "Apple"]
+    companies: ["Amazon", "Google", "Facebook", "Adobe", "Apple"],
   },
   {
     id: 138,
@@ -1796,7 +1856,7 @@ const questions = [
     pattern: ["DFS"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Microsoft", "Facebook", "Google", "Oracle"]
+    companies: ["Microsoft", "Facebook", "Google", "Oracle"],
   },
   {
     id: 139,
@@ -1817,8 +1877,8 @@ const questions = [
       "Salesforce",
       "Oracle",
       "Bloomberg",
-      "Intuit"
-    ]
+      "Intuit",
+    ],
   },
   {
     id: 140,
@@ -1827,7 +1887,7 @@ const questions = [
     pattern: ["DFS"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon"]
+    companies: ["Amazon"],
   },
   {
     id: 141,
@@ -1836,7 +1896,7 @@ const questions = [
     pattern: ["DFS"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon", "Google", "Bloomberg", "Apple", "Adobe"]
+    companies: ["Amazon", "Google", "Bloomberg", "Apple", "Adobe"],
   },
   {
     id: 142,
@@ -1846,7 +1906,7 @@ const questions = [
     pattern: ["DFS"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon", "Microsoft", "Adobe", "Bloomberg", "Apple"]
+    companies: ["Amazon", "Microsoft", "Adobe", "Bloomberg", "Apple"],
   },
   {
     id: 143,
@@ -1864,8 +1924,8 @@ const questions = [
       "Adobe",
       "Apple",
       "Qualtrics",
-      "Lyft"
-    ]
+      "Lyft",
+    ],
   },
   {
     id: 144,
@@ -1874,7 +1934,14 @@ const questions = [
     pattern: ["Design", "Trie"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Amazon", "Twitter", "Google", "Facebook", "Microsoft", "Apple"]
+    companies: [
+      "Amazon",
+      "Twitter",
+      "Google",
+      "Facebook",
+      "Microsoft",
+      "Apple",
+    ],
   },
   {
     id: 145,
@@ -1891,8 +1958,8 @@ const questions = [
       "Adobe",
       "Bloomberg",
       "Oracle",
-      "Snapchat"
-    ]
+      "Snapchat",
+    ],
   },
   {
     id: 146,
@@ -1912,8 +1979,8 @@ const questions = [
       "Snapchat",
       "Qualtrics",
       "Google",
-      "Quora"
-    ]
+      "Quora",
+    ],
   },
   {
     id: 147,
@@ -1932,8 +1999,8 @@ const questions = [
       "Facebook",
       "Bloomberg",
       "Google",
-      "Salesforce"
-    ]
+      "Salesforce",
+    ],
   },
   {
     id: 148,
@@ -1950,8 +2017,8 @@ const questions = [
       "Google",
       "Bloomberg",
       "Uber",
-      "Airbnb"
-    ]
+      "Airbnb",
+    ],
   },
   {
     id: 149,
@@ -1960,7 +2027,7 @@ const questions = [
     pattern: ["Heap"],
     difficulty: "Hard",
     premium: false,
-    companies: ["Facebook", "Amazon"]
+    companies: ["Facebook", "Amazon"],
   },
   {
     id: 150,
@@ -1984,8 +2051,8 @@ const questions = [
       "Salesforce",
       "Goldman Sachs",
       "JPMorgan",
-      "Snapchat"
-    ]
+      "Snapchat",
+    ],
   },
   {
     id: 151,
@@ -1994,7 +2061,7 @@ const questions = [
     pattern: ["Two Pointers"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Facebook", "Amazon", "Google", "Adobe", "Apple", "Uber"]
+    companies: ["Facebook", "Amazon", "Google", "Adobe", "Apple", "Uber"],
   },
   {
     id: 152,
@@ -2003,7 +2070,7 @@ const questions = [
     pattern: ["Two Pointers"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Facebook", "Amazon", "Apple", "Google", "Microsoft"]
+    companies: ["Facebook", "Amazon", "Apple", "Google", "Microsoft"],
   },
   {
     id: 153,
@@ -2025,8 +2092,8 @@ const questions = [
       "Salesforce",
       "Goldman Sachs",
       "Uber",
-      "Oracle"
-    ]
+      "Oracle",
+    ],
   },
   {
     id: 154,
@@ -2043,8 +2110,8 @@ const questions = [
       "Google",
       "Adobe",
       "Microsoft",
-      "Oracle"
-    ]
+      "Oracle",
+    ],
   },
   {
     id: 155,
@@ -2053,7 +2120,7 @@ const questions = [
     pattern: ["Two Pointers"],
     difficulty: "Medium",
     premium: false,
-    companies: ["LinkedIn", "Amazon", "Microsoft"]
+    companies: ["LinkedIn", "Amazon", "Microsoft"],
   },
   {
     id: 156,
@@ -2069,8 +2136,8 @@ const questions = [
       "Facebook",
       "Apple",
       "Salesforce",
-      "Bloomberg"
-    ]
+      "Bloomberg",
+    ],
   },
   {
     id: 157,
@@ -2093,8 +2160,9 @@ const questions = [
       "Uber",
       "Apple",
       "Citadel",
-      "Tesla"
-    ]
+      "Tesla",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 158,
@@ -2111,8 +2179,8 @@ const questions = [
       "Bloomberg",
       "Apple",
       "Uber",
-      "Facebook"
-    ]
+      "Facebook",
+    ],
   },
   {
     id: 159,
@@ -2121,7 +2189,7 @@ const questions = [
     pattern: ["Trie"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Google"]
+    companies: ["Google"],
   },
   {
     id: 160,
@@ -2130,7 +2198,7 @@ const questions = [
     pattern: ["Trie"],
     difficulty: "Easy",
     premium: true,
-    companies: ["Amazon"]
+    companies: ["Amazon"],
   },
   {
     id: 161,
@@ -2139,7 +2207,7 @@ const questions = [
     pattern: ["Trie"],
     difficulty: "Medium",
     premium: false,
-    companies: ["Adobe"]
+    companies: ["Adobe"],
   },
   {
     id: 162,
@@ -2148,7 +2216,7 @@ const questions = [
     pattern: ["Trie"],
     difficulty: "Hard",
     premium: false,
-    companies: ["Amazon", "Microsoft"]
+    companies: ["Amazon", "Microsoft"],
   },
   {
     id: 163,
@@ -2157,7 +2225,7 @@ const questions = [
     pattern: ["Trie"],
     difficulty: "Hard",
     premium: false,
-    companies: ["Google"]
+    companies: ["Google"],
   },
   {
     id: 164,
@@ -2166,7 +2234,7 @@ const questions = [
     pattern: ["Trie"],
     difficulty: "Hard",
     premium: false,
-    companies: ["Airbnb", "Facebook", "Google"]
+    companies: ["Airbnb", "Facebook", "Google"],
   },
   {
     id: 165,
@@ -2175,7 +2243,14 @@ const questions = [
     pattern: ["Trie"],
     difficulty: "Hard",
     premium: true,
-    companies: ["Amazon", "Google", "Microsoft", "Uber", "Bloomberg", "Twitter"]
+    companies: [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Uber",
+      "Bloomberg",
+      "Twitter",
+    ],
   },
   {
     id: 166,
@@ -2184,7 +2259,7 @@ const questions = [
     pattern: ["Trie"],
     difficulty: "Hard",
     premium: true,
-    companies: ["Bloomberg", "Oracle", "Google"]
+    companies: ["Bloomberg", "Oracle", "Google"],
   },
   {
     id: 167,
@@ -2194,7 +2269,7 @@ const questions = [
     pattern: ["DFS", "Graph", "Topological Sort"],
     difficulty: "Hard",
     premium: false,
-    companies: ["Apple"]
+    companies: ["Apple"],
   },
   {
     id: 168,
@@ -2212,8 +2287,8 @@ const questions = [
       "Facebook",
       "Apple",
       "Bloomberg",
-      "Oracle"
-    ]
+      "Oracle",
+    ],
   },
   {
     id: 169,
@@ -2222,7 +2297,14 @@ const questions = [
     pattern: ["Sorting"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Amazon", "Facebook", "Apple", "Microsoft", "Adobe"]
+    companies: [
+      "Amazon",
+      "Facebook",
+      "Apple",
+      "Microsoft",
+      "Adobe",
+      "CrackingTheCodeInterview",
+    ],
   },
   {
     id: 170,
@@ -2231,17 +2313,7 @@ const questions = [
     pattern: ["Arrays"],
     difficulty: "Easy",
     premium: false,
-    companies: ["Google"]
-  },
-  //////////////////////////////////////////////////////
-  {
-    id: 171,
-    name: "Valid Anagram",
-    url: "https://leetcode.com/problems/valid-anagram/",
-    pattern: ["Strings"],
-    difficulty: "Easy",
-    premium: false,
-    companies: []
+    companies: ["Google"],
   },
   {
     id: 172,
@@ -2250,8 +2322,8 @@ const questions = [
     pattern: ["Strings"],
     difficulty: "Easy",
     premium: false,
-    companies: ["CITI"],
-    source: "CITI"
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
   },
   {
     id: 173,
@@ -2260,8 +2332,8 @@ const questions = [
     pattern: ["Strings"],
     difficulty: "Hard",
     premium: false,
-    companies: ["CITI"],
-    source: "CITI"
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
   },
   {
     id: 174,
@@ -2270,8 +2342,8 @@ const questions = [
     pattern: ["Strings"],
     difficulty: "Medium",
     premium: false,
-    companies: ["CITI"],
-    source: "CITI"
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
   },
   {
     id: 175,
@@ -2280,10 +2352,9 @@ const questions = [
     pattern: ["Strings"],
     difficulty: "Easy",
     premium: false,
-    companies: ["CITI"],
-    source: "CITI"
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
   },
-  /////////////////////////////////////
   {
     id: 175,
     name: "Remove duplicates from unsorted list",
@@ -2292,8 +2363,8 @@ const questions = [
     pattern: ["LinkedList"],
     difficulty: "Easy",
     premium: false,
-    companies: ["CITI"],
-    source: "CITI"
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
   },
   {
     id: 176,
@@ -2302,8 +2373,8 @@ const questions = [
     pattern: ["LinkedList"],
     difficulty: "Easy",
     premium: false,
-    companies: ["CITI"],
-    source: "CITI"
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
   },
   {
     id: 177,
@@ -2312,8 +2383,8 @@ const questions = [
     pattern: ["LinkedList"],
     difficulty: "Medium",
     premium: false,
-    companies: ["CITI"],
-    source: "CITI"
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
   },
   {
     id: 178,
@@ -2322,8 +2393,8 @@ const questions = [
     pattern: ["LinkedList"],
     difficulty: "Easy",
     premium: false,
-    companies: ["CITI"],
-    source: "CITI"
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
   },
   {
     id: 179,
@@ -2332,8 +2403,8 @@ const questions = [
     pattern: ["Stacks"],
     difficulty: "Easy",
     premium: false,
-    companies: ["CITI"],
-    source: "CITI"
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
   },
   {
     id: 180,
@@ -2342,10 +2413,9 @@ const questions = [
     pattern: ["Stacks"],
     difficulty: "Hard",
     premium: false,
-    companies: ["CITI"],
-    source: "CITI"
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
   },
-  //////////////////////////////
 
   {
     id: 181,
@@ -2354,8 +2424,8 @@ const questions = [
     pattern: ["Graph"],
     difficulty: "Easy",
     premium: false,
-    companies: ["CITI"],
-    source: "CITI"
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
   },
   {
     id: 182,
@@ -2365,8 +2435,8 @@ const questions = [
     pattern: ["Graph"],
     difficulty: "Easy",
     premium: false,
-    companies: ["CITI"],
-    source: "CITI"
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
   },
   {
     id: 183,
@@ -2375,8 +2445,8 @@ const questions = [
     pattern: ["BFS"],
     difficulty: "Medium",
     premium: false,
-    companies: ["CITI"],
-    source: "CITI"
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
   },
   {
     id: 184,
@@ -2385,8 +2455,8 @@ const questions = [
     pattern: ["Trees"],
     difficulty: "Easy",
     premium: false,
-    companies: ["CITI"],
-    source: "CITI"
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
   },
   {
     id: 185,
@@ -2395,8 +2465,8 @@ const questions = [
     pattern: ["BFS"],
     difficulty: "Medium",
     premium: false,
-    companies: ["CITI"],
-    source: "CITI"
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
   },
   {
     id: 183,
@@ -2405,8 +2475,8 @@ const questions = [
     pattern: ["BFS"],
     difficulty: "Medium",
     premium: false,
-    companies: ["CITI"],
-    source: "CITI"
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
   },
   {
     id: 183,
@@ -2415,9 +2485,69 @@ const questions = [
     pattern: ["BFS"],
     difficulty: "Medium",
     premium: false,
-    companies: ["CITI"],
-    source: "CITI"
-  }
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
+  },
+  {
+    id: 184,
+    name: "Subsets",
+    url: "https://leetcode.com/problems/subsets/",
+    pattern: [""],
+    difficulty: "Medium",
+    premium: false,
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
+  },
+  {
+    id: 185,
+    name: "Divide 2 integers",
+    url: "https://leetcode.com/problems/divide-two-integers/",
+    pattern: [""],
+    difficulty: "Medium",
+    premium: false,
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
+  },
+  {
+    id: 186,
+    name: "Integer to english words",
+    url: "https://leetcode.com/problems/integer-to-english-words/",
+    pattern: [""],
+    difficulty: "Hard",
+    premium: false,
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
+  },
+  {
+    id: 187,
+    name: "Contiguous array",
+    url: "https://leetcode.com/problems/contiguous-array/",
+    pattern: [""],
+    difficulty: "Medium",
+    premium: false,
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
+  },
+  {
+    id: 188,
+    name: "Word ladder",
+    url: "https://leetcode.com/problems/word-ladder/",
+    pattern: [""],
+    difficulty: "Hard",
+    premium: false,
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
+  },
+  {
+    id: 189,
+    name: " Maximal Square",
+    url: "https://leetcode.com/problems/maximal-square/",
+    pattern: [""],
+    difficulty: "Medium",
+    premium: false,
+    companies: ["CrackingTheCodeInterview"],
+    source: "CITI",
+  },
 ];
 
 const sortBy = { Easy: 0, Medium: 1, Hard: 2 };
